@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto - Hashem Agencia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../images/logo.webp" alt="Logotipo de Hashem Alquiler de Coches" width="130" height="30">
+        </div>
+        <nav aria-label="Navegación principal">
+            <div class="burger-menu" aria-label="Abrir menú" role="menubar" aria-expanded="false">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./galeria.html">Galería</a></li>
+                <li><a href="./presupuesto.html">Presupuesto</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Calcular Presupuesto de Alquiler - Hashem</h1>
+            <form id="presupuesto-form">
+                <h2>Datos de Contacto</h2>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" minlength="5" maxlength="15" required>
+                </div>
+                <div class="form-group">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" minlength="5" maxlength="40" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" minlength="9" maxlength="9" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+    
+                <h2>Opciones de Alquiler</h2>
+                <div class="form-group">
+                    <label for="producto">Tipo de Vehículo:</label>
+                    <select id="producto" name="producto" required>
+                        <option value="">Seleccione un vehículo</option>
+                        <option value="economico">Económico (30€/día)</option>
+                        <option value="intermedio">Intermedio (50€/día)</option>
+                        <option value="lujo">Lujo (100€/día)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="plazo">Días de Alquiler:</label>
+                    <input type="number" id="plazo" name="plazo" min="1" required>
+                </div>
+                <div class="form-group">
+                    <h2>Opciones Adicionales:</h2>
+                    <div class="opciones-adicionales">
+                        <div>
+                            <label for="seguro">Seguro Completo (+10€/día)</label>
+                            <input type="checkbox" id="seguro" name="opciones" value="seguro">
+                        </div>
+                        <div>
+                            <label for="sillabebe">Silla para Bebé (+3€/día)</label>
+                            <input type="checkbox" id="sillabebe" name="opciones" value="sillabebe">
+                        </div>
+                        <div>
+                            <label for="conductor_adicional">Conductor Adicional (+15€/día)</label>
+                            <input type="checkbox" id="conductor_adicional" name="opciones" value="conductor_adicional">
+                        </div>
+                        <div>
+                            <label for="tanque_lleno">Tanque Lleno (+20€)</label>
+                            <input type="checkbox" id="tanque_lleno" name="opciones" value="tanque_lleno">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="total">Precio real:</label>
+                    <p id="real-total" name="real-total"></p>
+                </div>
+                <div class="form-group">
+                    <label for="total">Precio con descuento:</label>
+                    <input type="text" id="total" name="total" readonly>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="condiciones" name="condiciones" required>
+                    <label for="condiciones">Acepto las condiciones de alquiler y privacidad</label>
+                </div>
+                <button type="submit">Solicitar Reserva</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="logoFooter">
+            <img src="../images/logo.webp" alt="Logotipo de Hashem Alquiler de Coches" width="130" height="30">
+        </div>
+        <p>&copy; 2024 Todos los derechos reservados.</p>
+        <div class="social-icons">
+            <a href="https://fb.com" class="fab fa-facebook" rel="nofollow" aria-label="Facebook"></a>
+            <a href="https://x.com" class="fab fa-twitter" rel="nofollow" aria-label="Twitter"></a>
+            <a href="https://instagram.com" class="fab fa-instagram" rel="nofollow" aria-label="Instagram"></a>
+        </div>
+    </footer>
+    <script src="../js/burger.js"></script>
+    <script src="../js/presupuesto.js"></script>
+</body>
+</html>

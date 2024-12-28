@@ -1,0 +1,34 @@
+{
+    "articles": [
+        {
+            "title": "Toyota Corolla 2023",
+            "img": "./images/toyota.webp",
+            "content": "¡Ahora disponible para alquiler! El Toyota Corolla 2023 ofrece un interior cómodo, un diseño moderno y una eficiencia excepcional en el consumo de combustible. Perfecto para viajes de negocios o escapadas de fin de semana."
+        },
+        {
+            "title": "Kia Sportage 2023",
+            "img": "./images/Sportage.webp",
+            "content": "Añadimos el Kia Sportage 2023 a nuestra lista de alquileres. Este SUV compacto ofrece eficiencia, un diseño atractivo y un interior espacioso para todos tus trayectos."
+        },
+        {
+            "title": "Nissan Altima 2023",
+            "img": "./images/Nissan.webp",
+            "content": "Incorporamos el Nissan Altima 2023 a nuestra flota. Este sedán combina lujo y tecnología avanzada, brindando una experiencia de manejo suave y segura para cualquier ocasión."
+        },
+        {
+            "title": "Honda Civic 2023",
+            "img": "./images/honda.webp",
+            "content": "Descubre el Honda Civic 2023, un sedán elegante con características de seguridad avanzadas, excelente eficiencia de combustible y un diseño interior moderno. Ideal para viajes en carretera o desplazamientos diarios."
+        },
+        {
+            "title": "Chevrolet Tahoe 2023",
+            "img": "./images/tahoe.webp",
+            "content": "Para quienes buscan espacio y potencia, presentamos el Chevrolet Tahoe 2023. Este SUV de tamaño completo es perfecto para familias o grupos grandes, con características tecnológicas de última generación."
+        },
+        {
+            "title": "Ford Mustang 2023",
+            "img": "./images/mustang.webp",
+            "content": "Agrega emoción a tu viaje con el Ford Mustang 2023. Este deportivo icónico ofrece un rendimiento de alta velocidad, un diseño inconfundible y una experiencia de manejo emocionante."
+        }
+    ]
+}
